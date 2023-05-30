@@ -15,8 +15,6 @@ app = Client(
 
 gif = [
     'https://telegra.ph/file/74f5cc08986ed50995024.mp4',
-
-
 ]
 
 
