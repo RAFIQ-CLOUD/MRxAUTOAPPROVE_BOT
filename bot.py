@@ -28,7 +28,7 @@ async def approve(_, m : Message):
         add_group(m.chat.id)
         await app.approve_chat_join_request(op.id, kk.id)
         img = random.choice(gif)
-        await app.send_video(kk.id,img, "**ʜᴇʟʟᴏ {}!\nᴡᴇʟᴄᴏᴍᴇ ᴛᴏ {}\n\nᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ @MR_X_MIRROR**".format(m.from_user.mention, m.chat.title))
+        await app.send_video(kk.id,img, "**ʜᴇʟʟᴏ {}!\n\nᴡᴇʟᴄᴏᴍᴇ ᴛᴏ {}\n\nᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ @MR_X_MIRROR**".format(m.from_user.mention, m.chat.title))
         add_user(kk.id)
     except errors.PeerIdInvalid as e:
         print("ᴜsᴇʀ ɪsɴ'ᴛ sᴛᴀʀᴛ ʙᴏᴛ(ᴍᴇᴀɴs ɢʀᴏᴜᴘ)")
@@ -66,7 +66,7 @@ async def op(_, m :Message):
                 ]
             )
             add_group(m.chat.id)
-            await m.reply_text("**🦊 ʜᴇʟʟᴏ {}!\nᴘᴍ ᴍᴇ ꜰᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟs**".format(m.from_user.first_name), reply_markup=keyboar)
+            await m.reply_text("**🦊 ʜᴇʟʟᴏ {}!\n\nᴘᴍ ᴍᴇ ꜰᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟs**".format(m.from_user.first_name), reply_markup=keyboar)
         print(m.from_user.first_name +" ɪs sᴛᴀʀᴛᴇᴅ ʏᴏᴜʀ ʙᴏᴛ!")
 
     except UserNotParticipant:
