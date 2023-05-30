@@ -14,7 +14,7 @@ app = Client(
 )
 
 gif = [
-    'https://te.legra.ph/file/254c9c3c3293dbcda3a81.mp4',
+    'https://telegra.ph/file/74f5cc08986ed50995024.mp4',
 
 
 ]
@@ -30,10 +30,10 @@ async def approve(_, m : Message):
         add_group(m.chat.id)
         await app.approve_chat_join_request(op.id, kk.id)
         img = random.choice(gif)
-        await app.send_video(kk.id,img, "**Hello {}!\nWelcome To {}\n\n__Powerd By : @MS_LinkZzzz__**".format(m.from_user.mention, m.chat.title))
+        await app.send_video(kk.id,img, "**ʜᴇʟʟᴏ {}!\nᴡᴇʟᴄᴏᴍᴇ ᴛᴏ {}\n\nᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ @MR_X_MIRROR**".format(m.from_user.mention, m.chat.title))
         add_user(kk.id)
     except errors.PeerIdInvalid as e:
-        print("user isn't start bot(means group)")
+        print("ᴜsᴇʀ ɪsɴ'ᴛ sᴛᴀʀᴛ ʙᴏᴛ(ᴍᴇᴀɴs ɢʀᴏᴜᴘ)")
     except Exception as err:
         print(str(err))    
  
@@ -47,37 +47,37 @@ async def op(_, m :Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🗯 Channel", url="https://t.me/MS_LinkZzzz"),
-                        InlineKeyboardButton("💬 Support", url="https://t.me/+fxyzZxBGR9o5MWRl")
+                        InlineKeyboardButton("〄 ᴄʜᴀɴɴᴇʟ 〄", url="https://t.me/MROTTTamilXOffl"),
+                        InlineKeyboardButton("〆 sᴜᴘᴘᴏʀᴛ 〆", url="https://t.me/MR_X_MIRROR")
                     ],[
-                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/MSAUTOAPPROVERBOT?startgroup")
+                        InlineKeyboardButton("⇌ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇌", url="http://t.me/MRxAUTOAPPROVE_BOT?startgroup=true")
                     ]
                 ]
             )
             add_user(m.from_user.id)
-            await m.reply_photo("https://te.legra.ph/file/9143a2e0c8dd3709e654b.jpg", caption="**🦊 Hello {}!\nI'm an auto approve [Admin Join Requests]({}) Bot.\nI can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__Powerd By : @MS_LinkZzzz__**".format(m.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard)
+            await m.reply_photo("https://telegra.ph/file/bf9dd2e4a798de7dfd99c.jpg", caption="**🦊 ʜᴇʏ {}!\nᴍʏ ɴᴀᴍᴇ ɪꜱ <a href='https://t.me/MRxAUTOAPPROVE_BOT'>ᴍʀ x ᴀᴜᴛᴏ ᴀᴘᴘʀᴏᴠᴇ ʙᴏᴛ</a>\n\nɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ᴀᴘᴘʀᴏᴠᴇ ʙᴏᴛ.\nɪ ᴄᴀɴ ᴀᴘᴘʀᴏᴠᴇ ᴜsᴇʀs ɪɴ ɢʀᴏᴜᴘs/ᴄʜᴀɴɴᴇʟs.\nᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ ᴛᴏ ᴀᴅᴍɪɴ ᴡɪᴛʜ ᴀᴅᴅ ᴍᴇᴍʙᴇʀs ᴘᴇʀᴍɪssɪᴏɴ.\n\nᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ @MR_X_MIRROR**", reply_markup=keyboard)
     
         elif m.chat.type == enums.ChatType.GROUP or enums.ChatType.SUPERGROUP:
             keyboar = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("💁‍♂️ Start me private 💁‍♂️", url="https://t.me/MSAUTOAPPROVERBOT?start=start")
+                        InlineKeyboardButton("💁‍♂️ sᴛᴀʀᴛ ᴍᴇ ᴘʀɪᴠᴀᴛᴇ 💁‍♂️", url="https://t.me/MRxAUTOAPPROVE_BOT?start=start")
                     ]
                 ]
             )
             add_group(m.chat.id)
-            await m.reply_text("**🦊 Hello {}!\nwrite me private for more details**".format(m.from_user.first_name), reply_markup=keyboar)
-        print(m.from_user.first_name +" Is started Your Bot!")
+            await m.reply_text("**🦊 ʜᴇʟʟᴏ {}!\nᴘᴍ ᴍᴇ ꜰᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟs**".format(m.from_user.first_name), reply_markup=keyboar)
+        print(m.from_user.first_name +" ɪs sᴛᴀʀᴛᴇᴅ ʏᴏᴜʀ ʙᴏᴛ!")
 
     except UserNotParticipant:
         key = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🍀 Check Again 🍀", "chk")
+                    InlineKeyboardButton("🍀 ᴄʜᴇᴄᴋ ᴀɢᴀɪɴ 🍀", "chk")
                 ]
             ]
         )
-        await m.reply_text("**⚠️Access Denied!⚠️\n\nPlease Join @{} to use me.If you joined click check again button to confirm.**".format(cfg.FSUB), reply_markup=key)
+        await m.reply_text("**⚠️ᴀᴄᴄᴇss ᴅᴇɴɪᴇᴅ!⚠️\n\nᴘʟᴇᴀsᴇ ᴊᴏɪɴ @{} ᴛᴏ ᴜsᴇ ᴍᴇ.ɪꜰ ʏᴏᴜ ᴊᴏɪɴᴇᴅ ᴄʟɪᴄᴋ ᴄʜᴇᴄᴋ ᴀɢᴀɪɴ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴄᴏɴꜰɪʀᴍ.**".format(cfg.FSUB), reply_markup=key)
 
 #━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ callback ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
