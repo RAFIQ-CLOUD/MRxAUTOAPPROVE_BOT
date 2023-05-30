@@ -47,10 +47,12 @@ async def op(_, m :Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
+                        InlineKeyboardButton("⇌ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇌", url="http://t.me/MRxAUTOAPPROVE_BOT?startgroup=true")
+                    ],[
                         InlineKeyboardButton("〄 ᴄʜᴀɴɴᴇʟ 〄", url="https://t.me/MROTTTamilXOffl"),
                         InlineKeyboardButton("〆 sᴜᴘᴘᴏʀᴛ 〆", url="https://t.me/MR_X_MIRROR")
                     ],[
-                        InlineKeyboardButton("⇌ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇌", url="http://t.me/MRxAUTOAPPROVE_BOT?startgroup=true")
+                        InlineKeyboardButton("♚ ᴄʀᴇᴀᴛᴏʀ ♚", url="https://t.me/MR_X_MIRROR")
                     ]
                 ]
             )
@@ -89,18 +91,20 @@ async def chk(_, cb : CallbackQuery):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🗯 Channel", url="https://t.me/MS_LinkZzzz"),
-                        InlineKeyboardButton("💬 Support", url="https://t.me/+fxyzZxBGR9o5MWRl")
+                        InlineKeyboardButton("⇌ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇌", url="http://t.me/MRxAUTOAPPROVE_BOT?startgroup=true")
                     ],[
-                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/MSAUTOAPPROVERBOT?startgroup")
+                        InlineKeyboardButton("〄 ᴄʜᴀɴɴᴇʟ 〄", url="https://t.me/MROTTTamilXOffl"),
+                        InlineKeyboardButton("〆 sᴜᴘᴘᴏʀᴛ 〆", url="https://t.me/MR_X_MIRROR")
+                    ],[
+                        InlineKeyboardButton("♚ ᴄʀᴇᴀᴛᴏʀ ♚", url="https://t.me/MR_X_MIRROR")
                     ]
                 ]
             )
             add_user(cb.from_user.id)
-            await cb.message.edit("**🦊 Hello {}!\nI'm an auto approve [Admin Join Requests]({}) Bot.\nI can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__Powerd By : @MS_LinkZzzz__**".format(cb.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard, disable_web_page_preview=True)
-        print(cb.from_user.first_name +" Is started Your Bot!")
+            await cb.message.edit("**🦊 ʜᴇʏ {}!\nᴍʏ ɴᴀᴍᴇ ɪꜱ <a href='https://t.me/MRxAUTOAPPROVE_BOT'>ᴍʀ x ᴀᴜᴛᴏ ᴀᴘᴘʀᴏᴠᴇ ʙᴏᴛ</a>\n\nɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ᴀᴘᴘʀᴏᴠᴇ ʙᴏᴛ.\nɪ ᴄᴀɴ ᴀᴘᴘʀᴏᴠᴇ ᴜsᴇʀs ɪɴ ɢʀᴏᴜᴘs/ᴄʜᴀɴɴᴇʟs.\nᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ ᴛᴏ ᴀᴅᴍɪɴ ᴡɪᴛʜ ᴀᴅᴅ ᴍᴇᴍʙᴇʀs ᴘᴇʀᴍɪssɪᴏɴ.\n\nᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ @MR_X_MIRROR**", reply_markup=keyboard, disable_web_page_preview=True)
+        print(cb.from_user.first_name +" ɪs sᴛᴀʀᴛᴇᴅ ʏᴏᴜʀ ʙᴏᴛ!")
     except UserNotParticipant:
-        await cb.answer("🙅‍♂️ You are not joined to channel join and try again. 🙅‍♂️")
+        await cb.answer("🙅‍♂️ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴊᴏɪɴᴇᴅ ᴛᴏ ᴄʜᴀɴɴᴇʟ ᴊᴏɪɴ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ. 🙅‍♂️")
 
 #━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ info ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -110,17 +114,17 @@ async def dbtool(_, m : Message):
     x = all_groups()
     tot = int(xx + x)
     await m.reply_text(text=f"""
-🍀 Chats Stats 🍀
-🙋‍♂️ Users : `{xx}`
-👥 Groups : `{x}`
-🚧 Total users & groups : `{tot}` """)
+🍀 ᴄʜᴀᴛs sᴛᴀᴛs 🍀
+🙋‍♂️ ᴜsᴇʀs : `{xx}`
+👥 ɢʀᴏᴜᴘs : `{x}`
+🚧 ᴛᴏᴛᴀʟ ᴜsᴇʀs & ɢʀᴏᴜᴘs : `{tot}` """)
 
 #━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Broadcast ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 @app.on_message(filters.command("bcast") & filters.user(cfg.SUDO))
 async def bcast(_, m : Message):
     allusers = users
-    lel = await m.reply_text("`⚡️ Processing...`")
+    lel = await m.reply_text("`⚡️ ᴘʀᴏᴄᴇssɪɴɢ...`")
     success = 0
     failed = 0
     deactivated = 0
@@ -145,14 +149,14 @@ async def bcast(_, m : Message):
             print(e)
             failed +=1
 
-    await lel.edit(f"✅Successfull to `{success}` users.\n❌ Faild to `{failed}` users.\n👾 Found `{blocked}` Blocked users \n👻 Found `{deactivated}` Deactivated users.")
+    await lel.edit(f"✅sᴜᴄᴄᴇssꜰᴜʟʟ ᴛᴏ `{success}` ᴜsᴇʀs.\n❌ ꜰᴀɪʟᴇᴅ ᴛᴏ `{failed}` ᴜsᴇʀs.\n👾 ꜰᴏᴜɴᴅ `{blocked}` ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs \n👻 ꜰᴏᴜɴᴅ `{deactivated}` ᴅᴇᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴜsᴇʀs.")
 
 #━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Broadcast Forward ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 @app.on_message(filters.command("fcast") & filters.user(cfg.SUDO))
 async def fcast(_, m : Message):
     allusers = users
-    lel = await m.reply_text("`⚡️ Processing...`")
+    lel = await m.reply_text("`⚡️ ᴘʀᴏᴄᴇssɪɴɢ...`")
     success = 0
     failed = 0
     deactivated = 0
@@ -177,7 +181,7 @@ async def fcast(_, m : Message):
             print(e)
             failed +=1
 
-    await lel.edit(f"✅Successfull to `{success}` users.\n❌ Faild to `{failed}` users.\n👾 Found `{blocked}` Blocked users \n👻 Found `{deactivated}` Deactivated users.")
+    await lel.edit(f"✅sᴜᴄᴄᴇssꜰᴜʟʟ ᴛᴏ `{success}` ᴜsᴇʀs.\n❌ ꜰᴀɪʟᴇᴅ ᴛᴏ `{failed}` ᴜsᴇʀs.\n👾 ꜰᴏᴜɴᴅ `{blocked}` ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs \n👻 ꜰᴏᴜɴᴅ `{deactivated}` ᴅᴇᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴜsᴇʀs.")
 
-print("I'm Alive Now!")
+print("ɪ'ᴍ ᴀʟɪᴠᴇ ɴᴏᴡ!")
 app.run()
