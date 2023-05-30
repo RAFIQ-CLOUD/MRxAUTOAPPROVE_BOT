@@ -1,0 +1,56 @@
+{
+    "name": "Auto-Approved-Bot",
+    "description": "Iam Auto-Approved-Bot @MS_NEWONN",
+    "keywords": [
+        "Auto",
+        "Approved",
+        "Group",
+        "Invite",
+        "Link",
+        "Bot"
+    ],
+    "website": "https://telegram.me/MS_NEWONN",
+    "repository": "https://github.com/likebotz/msapprover",
+    "success_url": "https://telegram.me/MS_NEWONN",
+    "env": {
+        "API_ID": {
+            "description": "Your APP ID",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot Token From @BotFather",
+            "value": ""
+        },
+        "FSUB": {
+            "description": "Enter your Force Subscribe channel Username without @",
+            "value": ""
+        },
+        "CHID": {
+            "description": "Enter your Force Subscribe channel ID",
+            "value": "on"
+        },
+        "SUDO": {
+            "description": "Enter Bot Owners IDS",
+            "value": ""
+        },
+        "MONGO_URI": {
+            "description": "Enter your DB URL",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    }
+}
