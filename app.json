@@ -1,6 +1,6 @@
 {
     "name": "Auto-Approved-Bot",
-    "description": "Iam Auto-Approved-Bot @MS_NEWONN",
+    "description": "Iam Auto-Approved-Bot @MR_X_MIRROR",
     "keywords": [
         "Auto",
         "Approved",
@@ -9,9 +9,9 @@
         "Link",
         "Bot"
     ],
-    "website": "https://telegram.me/MS_NEWONN",
-    "repository": "https://github.com/likebotz/msapprover",
-    "success_url": "https://telegram.me/MS_NEWONN",
+    "website": "https://telegram.me/MR_X_MIRROR",
+    "repository": "https://github.com/RAFIQ-CLOUD/MRxAUTOAPPROVE_BOT",
+    "success_url": "https://telegram.me/MR_X_MIRROR",
     "env": {
         "API_ID": {
             "description": "Your APP ID",
