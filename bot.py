@@ -99,7 +99,7 @@ async def chk(_, cb : CallbackQuery):
                 ]
             )
             add_user(cb.from_user.id)
-            await cb.message.edit("**🦊 ʜᴇʟʟᴏ {}!\n\nᴍʏ ɴᴀᴍᴇ ɪꜱ <a href='https://t.me/MRxAUTOAPPROVE_BOT'>ᴍʀ x ᴀᴜᴛᴏ ᴀᴘᴘʀᴏᴠᴇ ʙᴏᴛ</a>\n\nɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ᴀᴘᴘʀᴏᴠᴇ ʙᴏᴛ.\nɪ ᴄᴀɴ ᴀᴘᴘʀᴏᴠᴇ ᴜsᴇʀs ɪɴ ɢʀᴏᴜᴘs/ᴄʜᴀɴɴᴇʟs.\n\nᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ ᴛᴏ ᴀᴅᴍɪɴ ᴡɪᴛʜ ᴀᴅᴅ ᴍᴇᴍʙᴇʀs ᴘᴇʀᴍɪssɪᴏɴ.\n\nᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ @MR_X_MIRROR**".format(m.from_user.mention), reply_markup=keyboard, disable_web_page_preview=True)
+            await cb.message.edit("**🦊 ʜᴇʟʟᴏ {}!\n\nᴍʏ ɴᴀᴍᴇ ɪꜱ <a href='https://t.me/MRxAUTOAPPROVE_BOT'>ᴍʀ x ᴀᴜᴛᴏ ᴀᴘᴘʀᴏᴠᴇ ʙᴏᴛ</a>\n\nɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ᴀᴘᴘʀᴏᴠᴇ ʙᴏᴛ.\nɪ ᴄᴀɴ ᴀᴘᴘʀᴏᴠᴇ ᴜsᴇʀs ɪɴ ɢʀᴏᴜᴘs/ᴄʜᴀɴɴᴇʟs.\n\nᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ ᴛᴏ ᴀᴅᴍɪɴ ᴡɪᴛʜ ᴀᴅᴅ ᴍᴇᴍʙᴇʀs ᴘᴇʀᴍɪssɪᴏɴ.\n\nᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ @MR_X_MIRROR**".format(cb.from_user.mention), reply_markup=keyboard, disable_web_page_preview=True)
         print(cb.from_user.first_name +" ɪs sᴛᴀʀᴛᴇᴅ ʏᴏᴜʀ ʙᴏᴛ!")
     except UserNotParticipant:
         await cb.answer("🙅‍♂️ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴊᴏɪɴᴇᴅ ᴛᴏ ᴄʜᴀɴɴᴇʟ ᴊᴏɪɴ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ. 🙅‍♂️")
