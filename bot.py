@@ -45,9 +45,9 @@ async def op(_, m :Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬", url="http://t.me/MRxAUTOAPPROVE_BOT?startgroup=true")
+                        InlineKeyboardButton("⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬", url="https://t.me/MRxAUTOAPPROVE_BOT?startgroup=true")
                     ],[
-                        InlineKeyboardButton("〄 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ 〄", url="https://t.me/MROTTTamilXOffl")
+                        InlineKeyboardButton("〄 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ 〄", url="https://t.me/MRxAUTOAPPROVE_BOT?startchannel=true")
                     ],[
                         InlineKeyboardButton("⌬ sᴜᴘᴘᴏʀᴛ ⌬", url="https://t.me/MR_X_MIRROR")
                     ]
