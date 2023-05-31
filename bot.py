@@ -47,7 +47,7 @@ async def op(_, m :Message):
                     [
                         InlineKeyboardButton("〄 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ 〄", url="https://t.me/MRxAUTOAPPROVE_BOT?startchannel=true")
                     ],[
-                        InlineKeyboardButton("⍟ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⍟", url="https://t.me/MRxAUTOAPPROVE_BOT?startgroup=true")
+                        InlineKeyboardButton("⇌ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇌", url="https://t.me/MRxAUTOAPPROVE_BOT?startgroup=true")
                     ],[
                         InlineKeyboardButton("⌬ sᴜᴘᴘᴏʀᴛ ⌬", url="https://t.me/MR_X_MIRROR")
                     ]
