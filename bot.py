@@ -45,12 +45,11 @@ async def op(_, m :Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("⇌ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇌", url="http://t.me/MRxAUTOAPPROVE_BOT?startgroup=true")
+                        InlineKeyboardButton("⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬", url="http://t.me/MRxAUTOAPPROVE_BOT?startgroup=true")
                     ],[
-                        InlineKeyboardButton("〄 ᴄʜᴀɴɴᴇʟ 〄", url="https://t.me/MROTTTamilXOffl"),
-                        InlineKeyboardButton("〆 sᴜᴘᴘᴏʀᴛ 〆", url="https://t.me/MR_X_MIRROR")
+                        InlineKeyboardButton("〄 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ 〄", url="https://t.me/MROTTTamilXOffl")
                     ],[
-                        InlineKeyboardButton("♚ ᴄʀᴇᴀᴛᴏʀ ♚", url="https://t.me/MR_X_MIRROR")
+                        InlineKeyboardButton("⌬ sᴜᴘᴘᴏʀᴛ ⌬", url="https://t.me/MR_X_MIRROR")
                     ]
                 ]
             )
